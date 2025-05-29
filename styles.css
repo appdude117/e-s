@@ -7,8 +7,12 @@ h1 {
 
 #bigcont {
     display: flex;
-    background-color: rgb(159, 196, 159);
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(159, 196, 159, 0.5);
+    border-style: dotted;
     border: 8px;
-    border-color: black;
-    opacity: 30%;
+    border-color: rgb(250, 0, 0);
+    height:5000px;
+    width: 5000px;
 }
